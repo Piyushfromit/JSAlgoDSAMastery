@@ -28,7 +28,7 @@ class Wizard extends Player{
 
 class Deepak extends Wizard{
     constructor(name, type){
-        super(name, type);
+        super(name, type);  // this give us access to the previous class objects;
     }
     hello(){
         console.log(`This is Deepak Chaudhary ${this.name}`);
