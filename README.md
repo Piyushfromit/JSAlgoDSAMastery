@@ -1,5 +1,5 @@
 # Google_Interview_Questions
-Here I make a list of some of the good questions asked in Google interview codding rounds.
+Here I make a list of some of the good questions asked in Google interview coding rounds.
 Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Deepak Chaudhary
 ========================================================================================================================================
 
