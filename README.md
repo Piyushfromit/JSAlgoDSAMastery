@@ -19,8 +19,8 @@
   14. Advanced Algorithms.
 
 
+## JavaScript DSA: Every Puzzle, My Motivation!.
 <pre>
-    // "JavaScript DSA: Every Puzzle, My Motivation!".
     const cup = {
       isEmpty: true,
       fill: function() {
