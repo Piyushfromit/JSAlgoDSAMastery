@@ -25,7 +25,7 @@
       isEmpty: true,
       fill: function() {
         this.isEmpty = false;
-        console.log("Cup filled! Time to code with caffeine boost!");
+        console.log("Cup filled! Time to code with coffee.!");
       }  
     };
 
@@ -35,7 +35,7 @@
       console.log("Let's write some awesome code!");
     } else {
       // Cup is already filled, no need to refill.
-      console.log("Cup is already filled! Let's dive into coding!");
+      console.log("Cup is already filled! Don't waste your time let's together dive into coding!");
     }
 </pre>
 
