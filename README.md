@@ -1,7 +1,7 @@
+# Let's kill DSA this time.
 ![JavaScript](https://codewithdeepak.in/images/javascript.png)
 
 
-# Let's Kill DSA This Time.
 ## Data Structure And Algorithms
   1. Array.
   2. Linked List.
