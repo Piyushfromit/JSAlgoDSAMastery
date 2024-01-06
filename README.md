@@ -1,4 +1,4 @@
-![JavaScript](https://codewithdeepak.in/images/javascript)
+![JavaScript](https://codewithdeepak.in/images/javascript.png)
 
 
 # Let's Kill DSA This Time.
