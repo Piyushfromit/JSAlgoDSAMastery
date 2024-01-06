@@ -1,22 +1,41 @@
-# JavaScriptWithDSA
-
-This repo contain all the important and most asked interview question.
+# Let's Kill DSA This Time.
 
 # Topic Cover in DSA 
 
-## Data Structure
+## Data Structure And Algorithms
   1. Array.
   2. Linked List.
-  3. Stack
-  4. Queue
-  5. Tree
-  6. Hash Table
-  7. Graph
+  3. Stack.
+  4. Lists.
+  5. Dictionaries.
+  6. Queue.
+  7. Sets
+  8. Tree.
+  9. Hash Table.
+  10. Graph and Graph Algorithm.
+  11. Binary Tress and Binary Search Trees.
+  12. Sorting Alogithms.
+  13. Searching Algorithms.
+  14. Advanced Algorithms.
 
-## Algorithm 
 
-  Selection Sort.
-  Bubble sort.
-  Insertion Sort.
-  Merge Sort.
-  Heap Sort.
+<pre>
+    // "JavaScript DSA: Every Puzzle, My Motivation!".
+    const cup = {
+      isEmpty: true,
+      fill: function() {
+        this.isEmpty = false;
+        console.log("Cup filled! Time to code with caffeine boost!");
+      }  
+    };
+
+    if (cup.isEmpty) {
+      cup.fill();
+      // Start coding here...
+      console.log("Let's write some awesome code!");
+    } else {
+      // Cup is already filled, no need to refill.
+      console.log("Cup is already filled! Let's dive into coding!");
+    }
+</pre>
+
