@@ -1,7 +1,4 @@
 # Let's Kill DSA This Time.
-
-# Topic Cover in DSA 
-
 ## Data Structure And Algorithms
   1. Array.
   2. Linked List.
