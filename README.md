@@ -2,7 +2,7 @@
 ![JavaScript](https://codewithdeepak.in/images/javascript.png)
 
 
-## Data Structure And Algorithms
+## Data Structure And Algorithms.
   1. Array.
   2. Linked List.
   3. Stack.
