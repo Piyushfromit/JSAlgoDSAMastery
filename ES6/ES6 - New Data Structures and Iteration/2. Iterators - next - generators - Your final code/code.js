@@ -6,17 +6,17 @@ for(const x of BASKET){
     console.log(x);
 }
 
-//BASKET is iterable
+let Iterators = document.getElementById("Iterators");
+for (const x of BASKET) {
+    Iterators.innerHTML += String(x).toUpperCase() + " <br/> ";
+}
 
-//an iterator
-//next() -> {value: , done: }
 
-//built in method creating an iterator out of an array
-//let arrIt = BASKET.entries();
 const arrIt = BASKET.values();
+
 //let arrIt = BASKET.keys();
 console.log(arrIt);
-console.log(JSON.stringify(arrIt.next()));
+console.log(JSON.stringify(arrIt.next().value));
 console.log(JSON.stringify(arrIt.next()));
 console.log(JSON.stringify(arrIt.next()));
 console.log(JSON.stringify(arrIt.next()));
@@ -36,7 +36,7 @@ console.log(JSON.stringify(arrIt.next()));
     console.log(JSON.stringify(array.next()));
     console.log(JSON.stringify(array.next()));
 }
-//let's create a function that makes an iterator out of an array
+// Let's create a function that makes an iterator out of an array
 const createIterator = (array) => {
     let index = 0;
     return {

@@ -1,52 +1,54 @@
-// //create a separate scope first using a block
+// // Create a separate scope first using a block
 // {
-//    greet();//hi
+//    greet(); // result -> hi
 //    function greet(){
 //        console.log('hi');
 //    }
-//    greet();//hi
+//    greet(); // result -> hi
    
 //    {
 //        function greet(){
-//            console.log('there is something');
+//            console.log('There is something');
 //        }
-//        greet();//hello
-       
+//        greet(); // There is something search in scope.
 //    }
-//    greet();//hi
+//    greet(); // Hi
    
 // }
+
 // greet();
 
-//greet();//hi
+// greet(); 
 // function greet(){
-//     console.log('hi');
+//     console.log('Welcome'); // This result not get displayed.
 // }
-// greet();//hi
+// greet();
 
 // {
 //     function greet(){
 //         console.log('hello');
 //     }
-//     greet();//hello
+//     greet();// Hello
     
 //     {
 //         function greet(){
-//             console.log('hi there');
+//             console.log('Hi there');
             
 //         }
 //         greet();
 //     }
 
 // }
-// greet();//hello
+// greet();
 
 // {
 //     function greet(){
 //         console.log('hi hello');
 //     }
 // }
+
 // greet();
+
 
 {
     function ramp(){

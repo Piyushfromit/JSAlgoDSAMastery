@@ -4,8 +4,8 @@ function f(arr){
 }
 f(['Bill', 'Gates']);
 
-//ES6
-//parameter matching and priting.
+// ES6
+// Parameter matching and priting.
 function g([firstname, lastname]){
     console.log(`hello ${firstname} ${lastname} !`);
 }
@@ -19,13 +19,19 @@ g(['Bill', 'Gates']);
     }
     g(['Ram', 'Prashad', 'Chaurashiya']);
 }
+{
+    let g = ([firstname, secondname, lastname]) => {
+        console.log(`Hello ${firstname} ${secondname} ${lastname}`);
+    }
+    g(['Ram', 'Prashad', 'Chaurashiya']);
+}
 
 
 // putting object in function.
 function h({firstname, lastname}){
     console.log(`hello ${firstname} ${lastname} !`);
 }
-h({firstname: 'oo_mom', lastname: 'fuck me hard'});
+h({firstname: 'Ohh my', lastname: 'God'});
 
 
 

@@ -1,96 +1,23 @@
-//Why do you need to create arrays from other objects?
-// let arr = [1, 2, 3];
-// console.log(arr.map(x => x * 2)); // map function is somehow same like eachof()
-// console.log(arr.map);
+const typingDiv = document.getElementsByClassName('typing_effect');
+
+// Convert the HTMLCollection to an array using Array.from or the spread operator
+const typingArray = Array.from(typingDiv);
+
+let i = 0;
+const string = `The issue here is that getElementsByClassName returns an HTMLCollection, which represents a collection of elements. This collection doesn't have a text property like an individual DOM element does. 
+
+To set the text for each element with the class 'typing_effect', you need to iterate through the collection and set the textContent property individually for each element.Here's an example:`;
 
 
-// //ES5
-// console.log(Array.prototype.map.call(str, function(x){
-//     return x + 'a';
-// }));
+let arr = string.split("");
 
-// const collection = document.getElementsByClassName('blue');
-// console.log(collection.length);
-// console.log(collection);
-// console.log(collection.slice);
-// //ES5:
-// console.log(Array.prototype.slice.call(collection, 1, 3));
-
-// //Create an array from a collection
-// console.log(Array.from(collection));
-// //Create an array from a string
-// console.log(Array.from(str));
-
-// //Create an array from function arguments
-// function g(x, y){
-//     console.log(arguments);
-//     console.log(Array.from(arguments));
-// }
-// g(1, 2);
-
-// //use the optional map function
-// let str2 = 'strawberry';
-// console.log(Array.from(str2, x => x + ','));
-// console.log(Array.from([1, 2, 3], x => x * 2));
-
-// //from any object with a length property
-// const obj = {length: 3};
-// console.log(Array.from(obj));
-// console.log(Array.from(obj, value => 1));
-// console.log(Array.from(obj, (value, index) => index * 2));
-
-
-// //create an array from Sets and Maps (iterable objects)
-// let mySet = new Set();
-// mySet.add('John');
-// mySet.add(1);
-// console.log(mySet);
-// console.log(mySet.size);
-// console.log(Array.from(mySet));
-
-
-// const myMap = new Map([[1,2], [3,4]]);
-// console.log(myMap);
-// console.log(Array.from(myMap));
-
-
-
-
-
-let txt = 'This is Deepak Chaudhary';
-let speed = 100;
-var funarray = [];
-var i = 0;
-
-window.onload = function typing(){
-    if(i < txt.length){
-        document.getElementById('demo').innerHTML += txt.charAt(i);
-        funarray.push(txt.charAt(i));
+setInterval(() => {
+    if(i < arr.length){
+        typingArray.forEach((element) => {
+            element.textContent += arr[i]
+        })
         i++;
-        setTimeout(typing, speed);
-        document.getElementById('demo1').innerHTML = funarray.join('');
+    }else{
+        return 0;
     }
-}
-//setTimeout(typing);
-
-
-// function hideThem(){
-//   var element = document.getElementById('main');
-//   element.className = "letshideit";
-// }
-
-// setTimeout(hideThem, 5000);
-
-
-
-7906470035
-
-
-
-
-
-
-
-
-
-
+}, 100)

@@ -1,16 +1,17 @@
-//traditional for
+// Traditional for
+
 for(let i = 0; i < 3; i ++){
     console.log(i);
 }
 
 for(let i = 0; i < 3; i ++){
-    if(i == 1){
+    if(i === 2){
         break;
     }
     console.log(i);
 }
 
-//forEach
+// forEach
 const CARMAKES = ['Audi', 'BMW', 'Ford'];
 CARMAKES.forEach((element, index) => {
     console.log(`Make ${index + 1}: ${element}`);
@@ -25,6 +26,5 @@ carmaker.forEach((element, index) => {
 
 //ES6 for of:
 for (const x of CARMAKES){
-//    if(x == "BMW") break;
     console.log(x);
 }

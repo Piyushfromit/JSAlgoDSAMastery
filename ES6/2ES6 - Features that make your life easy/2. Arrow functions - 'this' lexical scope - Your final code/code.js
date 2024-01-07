@@ -1,51 +1,50 @@
 // ES5
-
 document.getElementById('button1').addEventListener('click', function(){
-    window.alert("Ram tere ganga Mahlee");
+    window.alert("Ram");
 })
 
 //ES6 In es6 arrow function is used () => {  }
-document.getElementById('button2').addEventListener('click' ,() => {
-    window.alert("Ram is Handsome Boy");
+document.getElementById('button2').addEventListener('click' , () => {
+    window.alert("Shyam");
+})
+
+var list = [1, 3]; // Define an array
+
+// ES5
+var list1 = list.map(function(x){
+    return console.log(x * 2);
+})
+
+// ES6
+const lists = [23,4,2,23];
+let marks = lists.map((x) =>{   
+    return console.log(x * 23);
+});
+
+const list33 = list.map( x => {
+    return x * 3;
+});
+
+console.log(list33);
+
+
+
+const list3 = list.map( x => x * 34); // return
+console.log(list3);
+
+// ES5
+const btn = document.getElementById('button3');
+const btn2 = document.getElementById('button4');
+btn.addEventListener('click', function(){
+    console.log(this.innerHTML);
+});
+// ES6 
+btn2.addEventListener('click', () => {
+    console.log(this.innerHTML)
 })
 
 
-// var list = [1, 3]; //Define an array
-// 
-// var list1 = list.map(function(x){
-//     return window.alert(x * 2);
-
-// })
-
-//ES6
-// const lists = [23,4,2,23];
-// let marks = lists.map((x) =>{
-//     return window.alert(x * 23);
-// });
-// let list = [23,4,3];
-// const list33 = list.map( x => {
-//     return x * 3;
-// });
-
-// window.alert(list33);
-
-
-
-// const list3 = list.map( x => x * 34);
-// window.alert(list3);
-
-//this
-//ES5
-// document.getElementById('button3').addEventListener('click', function(){
-//     console.log(this.innerHTML);
-// });
-
-// document.getElementById('button3').addEventListener('click', () => {
-//     window.alert(this.innerHTML)
-// })
-
-
-//ES6
+// ES6
 // document.getElementById('button4').addEventListener('click', () => {
 //     console.log(this.innerHTML);
 // });
@@ -74,7 +73,8 @@ var player = {
     }
 };
 player.click();
-document.write(player.fname);
+
+document.write(" \n  " + player.fname + " " + player.lname);
 
 
 
