@@ -1,14 +1,14 @@
-//a set is an object storing a collection of unique values
+// A set is an object storing a collection of unique values
 let mySet = new Set();
 mySet.add('John');
 mySet.add(1);
 mySet.add(1);
+
 const phone = {
     make: 'Samsung',
     model: 'S8'
 };
 mySet.add(phone);
-mySet.add(document.body);
 console.log(mySet);
 
 ////pass an iterable object to the set constuctor

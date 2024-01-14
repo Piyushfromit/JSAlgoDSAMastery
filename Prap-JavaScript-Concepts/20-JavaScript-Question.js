@@ -1,10 +1,6 @@
 /*
-
 Here is an example of merging and sorting of two array passing as an argument into function
-
 */
-
-
 function mergeSorted(array1, array2){
     let arrayItem1 = array1[0];
     let arrayItem2 = array1[0];

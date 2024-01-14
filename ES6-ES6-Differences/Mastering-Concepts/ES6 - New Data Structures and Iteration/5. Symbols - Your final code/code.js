@@ -1,8 +1,12 @@
-//why do you need symbols:
+// Why do you need symbols:
+
+
 const OFFSTATE = Symbol('off');
 const ONSTATE = Symbol('on');
 const feature1 = Symbol('feature');
 const feature2 = Symbol('feature');
+console.log(feature2)
+
 let car = {
     make: 'Audi',
     [feature1]: 'cruise control',
