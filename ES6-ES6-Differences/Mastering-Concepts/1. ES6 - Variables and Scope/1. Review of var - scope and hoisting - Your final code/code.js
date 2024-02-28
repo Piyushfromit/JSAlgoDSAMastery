@@ -8,7 +8,7 @@ function add1(y){
     var x = 2; //function scoped
     return y + x;
 }
-console.log(add1(3)); // result -> 5
+console.log(add1(3)); //
 
 function add2(y){
     return y + x;
@@ -22,7 +22,7 @@ var z = 1;
 console.log(z); // result -> 1
 
 
-//GLOBAL SCOPE, LOCAL SCOPE
+// GLOBAL SCOPE, LOCAL SCOPE
 var x = 23;
 
 function add(y){

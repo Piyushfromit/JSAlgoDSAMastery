@@ -11,7 +11,7 @@ let y = 2;
     // console.log(x); //error
     let z = 4;// no redeclaration error, variables are in different scopes now.
     console.log(z);
-    console.log(y); // 2
+    console.log(y); 
 }
 
 //ES5 using IIFE (fake scoping)
@@ -34,6 +34,7 @@ ramp();
 
 // Problem.
 
+let pass;
 let mark = 80;
 if(mark > 50){
    let pass = true;
@@ -44,7 +45,6 @@ console.log(pass); // result ->  ReferenceError: pass is not defined
 
 
 // To fix this:
-let pass;
 // let mark = 40;
 if(mark > 50){
     pass = true;

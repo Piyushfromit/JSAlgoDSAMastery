@@ -28,14 +28,14 @@
 //     function greet(){
 //         console.log('hello');
 //     }
-//     greet();// Hello
+//     // greet();// Hello
     
 //     {
 //         function greet(){
 //             console.log('Hi there');
             
 //         }
-//         greet();
+//         // greet();
 //     }
 
 // }
@@ -50,21 +50,21 @@
 // greet();
 
 
-{
-    function ramp(){
-        return console.log('Ram is Shayam, and Shayam is Ram');
-    }
-    ramp();
-}
-ramp();
+// {
+//     function ramp(){
+//         return console.log('Ram is Shayam, and Shayam is Ram');
+//     }
+//     ramp();
+// }
+// ramp();
 
 
 {
     const ram = {
         fname: 'Ram',
         lname: 'Chaudhary',
-        fullName: function(){
-            return console.log(this.fname + " " + this.lname);
+        fullName: () => {
+            return console.log(fname + " " +lname);
         }
     }
     ram.fullName();
